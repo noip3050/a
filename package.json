@@ -1,0 +1,21 @@
+{
+    "name": "my-flutter-app-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "keywords": [
+        "backend",
+        "express"
+    ],
+    "author": "اسم المؤلف",
+    "license": "ISC",
+    "description": "هذا المشروع هو نظام خلفي لإدارة الأسئلة باستخدام Express",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "express": "^4.21.1"
+    }
+}
